@@ -2,6 +2,6 @@ local ts = game:GetService("TeleportService")
 
 local p = game:GetService("Players").LocalPlayer
 
-Â 
 
-ts:Teleport(game.PlaceId, p)
+
+ts:TeleportToPlaceInstance(game.PlaceId, game.JobId, p)
